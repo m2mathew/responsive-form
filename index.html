@@ -2,9 +2,138 @@
 <html>
 <head>
     <title>Responsive Form</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.scss">
+    <link rel="stylesheet" type="text/css" href="/styles/main.sass.sass.css">
 </head>
 <body>
+
+    <form>
+
+    <section class="column-one">
+        <div>
+            <p>FIRST NAME</p>
+            <input placeholder="Jonathan" type="text">
+        </div>
+
+        <div>
+            <p>LAST NAME</p>
+            <input placeholder="Doe" type="text">
+        </div>
+
+        <div>
+            <p>EMAIL ADDRESS</p>
+            <input placeholder="jon@doe.com" type="text">
+        </div>
+
+        <div>
+            <p>COUNTRY</p>
+            <select>
+                <option default>Choose a country</option>
+                <option value="2">Brazil</option>
+                <option value="2">United States</option>
+                <option value="2">England</option>
+            </select>
+        </div>
+
+        <div>
+            <p>BIOGRAPHY</p>
+            <textarea></textarea>
+        </div>
+    </section>
+
+    <section class="column-two">
+        <div>
+            <p>PHONE NUMBER</p>
+            <input placeholder="+351 999 9999" type="<text> </text>">
+        </div>
+
+        <div>
+            <p>AFFILIATIONS</p>
+            <textarea></textarea>
+        </div>
+
+        <div>
+            <p>OCCUPATION</p>
+            <select>
+                <option default>Choose an occupation</option>
+                <option value="1">Programmer</option>
+                <option value="2">Code Monkey</option>
+                <option value="3">Corporate Stooge</option>
+                <option value="4">Jackal</option>
+            </select>
+        </div>
+
+        <div>
+            <p>CAT'S NAME</p>
+            <input placeholder="Kitty" type="text">
+        </div>
+
+        <div class="gadget">
+            <p>FAVORITE GADGET</p>
+                <input type="radio"/>
+                <label>HEALING HOCKEY DYNABOMB</label>
+
+                <input type="radio" name"gadget"/>
+                <label>GARLIC GYRO-STABILIZED AQUAWASHER</label>
+
+                <input type="radio" name"gadget"/>
+                <label>NUCLEAR HAIRSPRAY</label>
+
+                <input type="radio" name"gadget"/>
+                <label>STABILIZED EXPLOSIVE LADLE</label>
+        </div>
+    </section>
+
+    <section class="column-three">
+        <div>
+            <p>TYPE OF TALENT</p>
+            <select required>
+                <option default>Choose a talent</option>
+                <option value="">Looking for laptop stickers</option>
+                <option value="">Dressing like a hipster</option>
+                <option value="">Vanilla JavaScript</option>
+            </select>
+        </div>
+
+        <div>
+            <p>FAVORITE DRINKS</p>
+            <label>
+                <input type="checkbox">ORANGE JUICE
+            </label>
+            <label>
+                <input type="checkbox">COFFEE
+            </label>
+            <label>
+                <input type="checkbox">SODA
+            </label>
+            <label>
+                <input type="checkbox">BEER
+            </label>
+            <label>
+                <input type="checkbox">WINE
+            </label>
+        </div>
+
+        <div>
+            <p>SPECIAL POWER</p>
+            <input placeholder="Anti-gravity" type="        text">
+        </div>
+
+        <div>
+            <p>WEAPON OF CHOICE</p>
+            <input placeholder="Lightsaber" type="text">
+        </div>
+
+        <div>
+            <p>COMMENTS</p>
+            <textarea></textarea>
+        </div>
+
+        <form>
+            <div class="bottom-button" type="button" name="button">SEND YOUR DATA</div>
+        </form>
+    </section>
+
+    </form>
 
 </body>
 </html>

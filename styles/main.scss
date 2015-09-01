@@ -1,0 +1,114 @@
+@import "normalize.scss";
+
+/*
+
+All of that ^ is normalized code
+
+All of that \/ is my code
+
+*/
+
+$color-behind: #4FA2D7;
+
+body {
+    background-color: $color-behind;
+    font-family: "Helvetica Neue", sans serif;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    margin: 0 auto;
+}
+
+section {
+    padding: 0 2em;
+
+    &:first-child {
+        padding-top: 1em;
+    }
+}
+
+input::-webkit-input-placeholder {
+    font-style: italic;
+    color: black;
+    opacity: 0.5;
+    font-size: 1.25em;
+    min-height: 2em;
+    padding-left: 0.25em;
+}
+
+textarea {
+    height: 10em;
+}
+
+div {
+    padding-top: 1em;
+
+    p {
+        margin: 0.5em 0 0.25em 0;
+        padding-left: 0.15em;
+    }
+}
+
+select, input, textarea {
+    background-color: $color-behind;
+    width: 100%;
+}
+
+input, textarea {
+    border: 3px solid #fff;
+    padding: 0.5em 0.25em;
+}
+
+label {
+    display: block;
+}
+
+.bottom-button {
+    height: 3.5em;
+    background-color: #1E6797;
+    text-align: center;
+    margin: 1em auto;
+    border-radius: 1px;
+    font-weight: 300;
+    color: #fff;
+    padding: 1em 2em;
+    line-height: 2em;
+}
+
+input {
+    height: 1.5em;
+}
+
+.gadget {
+    label {
+        float: left;
+        clear: none;
+        // padding: 1em;
+    }
+
+    input {
+        float: left;
+        clear: none;
+        // padding: 1em;
+    }
+}
+
+
+
+// breakpoint for medium screens
+// @media screen and (min-width: 48em) {
+//     .column-one, .column-two {
+//         float: left;
+//         margin: 0 auto;
+//     }
+// }
+
+//     .column-three {
+//         clear: both;
+//     }
+
+// breakpoint for large screens
+// @media screen and (min-width: 70.12em) {
+
+// }
