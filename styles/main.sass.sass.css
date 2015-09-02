@@ -367,14 +367,12 @@ body {
   font-family: "Helvetica Neue", sans serif;
   color: #fff;
   font-weight: 300;
-  font-size: 1.1em;
+  font-size: 0.9em;
   letter-spacing: 0.1em;
   margin: 0 auto; }
 
 section {
-  padding: 0 2em; }
-  section:first-child {
-    padding-top: 1em; }
+  padding: 1.5em 2em 0 2em; }
 
 input::-webkit-input-placeholder {
   font-style: italic;
@@ -388,40 +386,62 @@ textarea {
   height: 10em; }
 
 div {
-  padding-top: 1em; }
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
   div p {
-    margin: 0.5em 0 0.25em 0;
+    margin-bottom: 0.25em;
     padding-left: 0.15em; }
 
 select, input, textarea {
   background-color: #4FA2D7;
-  width: 100%; }
+  width: 97%; }
 
 input, textarea {
   border: 3px solid #fff;
   padding: 0.5em 0.25em; }
 
-label {
-  display: block; }
-
-.bottom-button {
-  height: 3.5em;
-  background-color: #1E6797;
-  text-align: center;
-  margin: 1em auto;
-  border-radius: 1px;
-  font-weight: 300;
-  color: #fff;
-  padding: 1em 2em;
-  line-height: 2em; }
+select {
+  font-size: 1.2em; }
 
 input {
   height: 1.5em; }
 
-.gadget label {
-  float: left;
-  clear: none; }
+.gadget p {
+  padding-bottom: 0.5em; }
 
-.gadget input {
-  float: left;
-  clear: none; }
+.gadget div {
+  padding: 0;
+  padding-bottom: 0.5em; }
+
+.gadget .radio-button {
+  width: 1em;
+  background: #fff; }
+
+.gadget .radio-label {
+  vertical-align: top; }
+
+.talent {
+  padding-top: 0; }
+
+.drinks div {
+  height: 1em; }
+
+.drinks .drink-type {
+  width: 0.8em;
+  background-color: #fff; }
+
+.drinks label {
+  vertical-align: top;
+  padding-left: 0.5em; }
+
+.bottom-button {
+  padding: 0.5em 2em;
+  background-color: #1E6797;
+  text-align: center;
+  margin: 2em auto 3em auto;
+  border-radius: 1px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 2em;
+  border: none;
+  display: block; }
