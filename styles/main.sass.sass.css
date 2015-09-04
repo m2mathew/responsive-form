@@ -445,3 +445,19 @@ input {
   line-height: 2em;
   border: none;
   display: block; }
+
+@media screen and (min-width: 48em) {
+  .column-one, .column-two {
+    width: 42%;
+    float: left;
+    margin: 0 auto; }
+  .column-three {
+    clear: both; } }
+
+@media screen and (min-width: 70.125em) {
+  .column-one, .column-two, .column-three {
+    width: 28%;
+    float: left;
+    margin: 0 auto; }
+  .column-three {
+    clear: none; } }
